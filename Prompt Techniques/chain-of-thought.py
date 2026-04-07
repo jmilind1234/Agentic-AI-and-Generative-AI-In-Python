@@ -1,7 +1,7 @@
 #chain of thought prompting
 from openai import OpenAI
 from dotenv import load_dotenv
-from pydantic import BaseModel
+
 import json
 load_dotenv()
 client = OpenAI()
